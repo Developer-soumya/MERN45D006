@@ -70,9 +70,7 @@ form .login-gr input{
     box-shadow: -1px -1px 5px 1px blue;
 }
 
-form .login-gr input::placeholder{
-    color: red;
-}
+
 form .login-gr input:focus{
     background-color: orangered;
 }
