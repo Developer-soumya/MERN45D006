@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black;">
+    <div>
+    <div style="text-align: center; margin-bottom: 20px; background-Color:white">
+      <img 
+        src="https://www.qlith.com/assets/LogoBlack-CYVGQvES.png" 
+        alt="Qlith Innovation Header" 
+        style="width: 25%; height: auto; margin:auto;"
+      />
+    </div>
+    <h3 style="color: #333">Hi ${query.name || "User"},</h3>
+  
+
+      <!-- Reply Content -->
+      <p>
+        ${reply}
+      </p>
+
+      <p>Best regards,<br /><strong>Qlith Innovation Pvt. Ltd.</strong></p>
+
+    <div
+      style="
+        text-align: center;
+        margin-top: 20px;
+        font-size: 12px;
+        color: #888;
+      "
+    >
+      <p>&copy; 2025 Qlith Innovation Pvt. Ltd. All rights reserved.</p>
+      <p style="margin: 0">
+        Visit our website:
+        <a
+          href="https://www.qlith.com/"
+          target="_blank"
+          style="color: #007bff; text-decoration: none"
+          >www.qlith.com</a
+        >
+      </p>
+    </div>
+  </div>
+    <script src="loop.js"></script>
+</body>
+</html>
