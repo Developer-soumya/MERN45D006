@@ -46,8 +46,8 @@ const newArr = arr.map((v) => {
 
 console.log(newArr)
 
-const filterArr=arr.filter((v)=>{
-    return v%2==0;
+const filterArr = arr.filter((v) => {
+    return v % 2 == 0;
 })
 
 console.log(filterArr)
@@ -57,26 +57,26 @@ console.log(filterArr)
 //     a=a+v;
 // }
 
-let summation=arr.reduce((sum,accu)=>{
-    return sum+accu;    
-},0)
+let summation = arr.reduce((sum, accu) => {
+    return sum + accu;
+}, 0)
 
 console.log(summation)
 
-const n=prompt("Enter a number");
+const n = prompt("Enter a number");
 
-let domyArr=[];
-for(let i=1;i<=n;i++){
+let domyArr = [];
+for (let i = 1; i <= n; i++) {
     domyArr.push(i)
 }
 console.log(domyArr)
 
-const sum=domyArr.reduce((add,accu)=>{
- return add+accu;
-},0)
-const mult=domyArr.reduce((mul,accu)=>{
- return mul*accu;
-},1)
+const sum = domyArr.reduce((add, accu) => {
+    return add + accu;
+}, 0)
+const mult = domyArr.reduce((mul, accu) => {
+    return mul * accu;
+}, 1)
 
 console.log(sum)
 console.log(mult)
