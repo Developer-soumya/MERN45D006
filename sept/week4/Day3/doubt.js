@@ -71,3 +71,12 @@ const getData = async () => {
 }
 
 getData()
+
+
+function A(){
+    var a=20;
+    return a
+}
+
+const a=A();
+// console.log(a)

@@ -25,7 +25,7 @@ function App() {
   return (
     <div className='flex flex-col justify-center items-center'>
 
-      {/* <br />
+      <br />
       <button onClick={() => {
         setCount(count + 1)
       }
@@ -39,7 +39,7 @@ function App() {
         <colorContext.Provider value={color}>
           <Child1 />
         </colorContext.Provider>
-      </countContext.Provider> */}
+      </countContext.Provider>
 
       <Navbar/>
     </div>
